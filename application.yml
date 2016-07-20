@@ -1,0 +1,15 @@
+spring:
+  profiles: default
+maindirectory: C:\apagar\su
+suConfiguration.url: t3://10.43.1.68:17010
+suConfiguration.user: weblogic
+suConfiguration.password: Accenture01
+logging.file : C:\apagar\log\su-pass-generator.log
+suConfiguration.jndiname: Authorization
+suConfiguration.datapattern: dd-MMM-yyyy HH:mm:ss
+logging.level.com.accenture: DEBUG
+logging.level.root: WARN
+excelDateOutFormat: yyyy-MM-dd_HH-mm-ss
+logging.pattern.level: TID:%X{TID}%L %5p
+maxThread: 10
+fileEnconding: UTF-8
